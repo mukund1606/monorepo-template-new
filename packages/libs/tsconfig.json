@@ -1,7 +1,6 @@
 {
 	"extends": "tsconfig/base.json",
 	"compilerOptions": {
-		"types": ["bun-types"],
 		"allowImportingTsExtensions": true
 	},
 	"include": [".eslintrc.cjs", "**/*.ts", "**/*.tsx", "**/*.cjs", "**/*.js"],

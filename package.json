@@ -13,7 +13,8 @@
 		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
 		"db:studio": "pnpm --filter db db:studio",
 		"db:push": "pnpm --filter db db:push",
-		"db:generate": "pnpm --filter db postinstall"
+		"db:generate": "pnpm --filter db  generate",
+		"postinstall": "pnpm run db:generate"
 	},
 	"devDependencies": {
 		"prettier": "^3.2.5",

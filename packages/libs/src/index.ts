@@ -1,1 +1,5 @@
-export { api } from './eden';
+const helloWorld = () => {
+	return 'Hello World';
+};
+
+export { helloWorld };
